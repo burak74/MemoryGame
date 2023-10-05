@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ScoreBoard">
+
+    <TextView
+        android:id="@+id/lbKullanici2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="124dp"
+        android:layout_marginTop="144dp"
+        android:text="Alınan En Yüksek Puanlar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/namelvl4first"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="74dp"
+        android:text="TextView"
+        app:layout_constraintStart_toStartOf="@+id/lbKullanici2"
+        app:layout_constraintTop_toBottomOf="@+id/lbKullanici2" />
+
+    <TextView
+        android:id="@+id/scorelvl4first"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        app:layout_constraintBottom_toBottomOf="@+id/namelvl4first"
+        app:layout_constraintEnd_toEndOf="@+id/scorelvl5first"
+        app:layout_constraintStart_toStartOf="@+id/scorelvl5first"
+        app:layout_constraintTop_toTopOf="@+id/namelvl4first" />
+
+    <TextView
+        android:id="@+id/lbSeviye3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="34dp"
+        android:text="Seviye 4"
+        app:layout_constraintBottom_toBottomOf="@+id/namelvl4first"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/namelvl4first" />
+
+    <TextView
+        android:id="@+id/lbSeviye2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="34dp"
+        android:text="Seviye 6"
+        app:layout_constraintBaseline_toBaselineOf="@+id/namelvl6first"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/scorelvl6first"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="43dp"
+        android:layout_marginEnd="54dp"
+        android:text="TextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/scorelvl5third" />
+
+    <TextView
+        android:id="@+id/namelvl6first"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="43dp"
+        android:text="TextView"
+        app:layout_constraintStart_toStartOf="@+id/namelvl5third"
+        app:layout_constraintTop_toBottomOf="@+id/namelvl5third" />
+
+    <TextView
+        android:id="@+id/lbSeviye"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="34dp"
+        android:text="Seviye 5"
+        app:layout_constraintBaseline_toBaselineOf="@+id/namelvl5first"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/namelvl5first"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="43dp"
+        android:text="TextView"
+        app:layout_constraintStart_toStartOf="@+id/namelvl4third"
+        app:layout_constraintTop_toBottomOf="@+id/namelvl4third" />
+
+    <TextView
+        android:id="@+id/scorelvl5first"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="43dp"
+        android:text="TextView"
+        app:layout_constraintEnd_toEndOf="@+id/scorelvl6first"
+        app:layout_constraintStart_toStartOf="@+id/scorelvl6first"
+        app:layout_constraintTop_toBottomOf="@+id/scorelvl4third" />
+
+    <TextView
+        android:id="@+id/namelvl4second"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="19dp"
+        android:text="TextView"
+        app:layout_constraintStart_toStartOf="@+id/namelvl4first"
+        app:layout_constraintTop_toBottomOf="@+id/namelvl4first" />
+
+    <TextView
+        android:id="@+id/scorelvl4second"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="19dp"
+        android:text="TextView"
+        app:layout_constraintStart_toStartOf="@+id/scorelvl4first"
+        app:layout_constraintTop_toBottomOf="@+id/scorelvl4first" />
+
+    <TextView
+        android:id="@+id/namelvl4third"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="22dp"
+        android:text="TextView"
+        app:layout_constraintStart_toStartOf="@+id/namelvl4second"
+        app:layout_constraintTop_toBottomOf="@+id/namelvl4second" />
+
+    <TextView
+        android:id="@+id/scorelvl4third"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="22dp"
+        android:text="TextView"
+        app:layout_constraintStart_toStartOf="@+id/scorelvl4second"
+        app:layout_constraintTop_toBottomOf="@+id/scorelvl4second" />
+
+    <TextView
+        android:id="@+id/namelvl5second"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="22dp"
+        android:text="TextView"
+        app:layout_constraintStart_toStartOf="@+id/namelvl5first"
+        app:layout_constraintTop_toBottomOf="@+id/namelvl5first" />
+
+    <TextView
+        android:id="@+id/scorelvl5second"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="22dp"
+        android:text="TextView"
+        app:layout_constraintStart_toStartOf="@+id/scorelvl5first"
+        app:layout_constraintTop_toBottomOf="@+id/scorelvl5first" />
+
+    <TextView
+        android:id="@+id/namelvl5third"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="19dp"
+        android:text="TextView"
+        app:layout_constraintStart_toStartOf="@+id/namelvl5second"
+        app:layout_constraintTop_toBottomOf="@+id/namelvl5second" />
+
+    <TextView
+        android:id="@+id/scorelvl5third"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="19dp"
+        android:text="TextView"
+        app:layout_constraintStart_toStartOf="@+id/scorelvl5second"
+        app:layout_constraintTop_toBottomOf="@+id/scorelvl5second" />
+
+    <TextView
+        android:id="@+id/namelvl6second"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="TextView"
+        app:layout_constraintStart_toStartOf="@+id/namelvl6first"
+        app:layout_constraintTop_toBottomOf="@+id/namelvl6first" />
+
+    <TextView
+        android:id="@+id/scorelvl6second"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="TextView"
+        app:layout_constraintStart_toStartOf="@+id/scorelvl6first"
+        app:layout_constraintTop_toBottomOf="@+id/scorelvl6first" />
+
+    <TextView
+        android:id="@+id/namelvl6third"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="17dp"
+        android:text="TextView"
+        app:layout_constraintStart_toStartOf="@+id/namelvl6second"
+        app:layout_constraintTop_toBottomOf="@+id/namelvl6second" />
+
+    <TextView
+        android:id="@+id/scorelvl6third"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="17dp"
+        android:text="TextView"
+        app:layout_constraintStart_toStartOf="@+id/scorelvl6second"
+        app:layout_constraintTop_toBottomOf="@+id/scorelvl6second" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="252dp"
+        android:layout_height="168dp"
+        android:layout_marginStart="61dp"
+        android:layout_marginEnd="61dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.486"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/skores" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
